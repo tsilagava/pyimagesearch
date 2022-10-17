@@ -11,3 +11,7 @@ args = vars(ap.parse_args())
 print(f'Hi there {args["name"]}, it\'s nice to meet you!')
 print(args)
 print(ap.parse_args())
+
+
+# python add_command_line_arguments.py --name Tea
+
